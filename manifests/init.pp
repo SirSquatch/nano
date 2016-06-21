@@ -43,6 +43,6 @@
 # Copyright 2016 Your name here, unless otherwise noted.
 #
 class nano {
-	 include ::nano::install
+	 include [ '::nano::install' ]
 
 }
